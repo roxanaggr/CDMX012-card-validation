@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Eira · ¡Gracias!</title>
+    <title>Eira · Valida tu TDC</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -28,17 +28,25 @@
     <div id="main">
       <div class="contenido-left">
         <div>
-          <h1>Lucero, gracias por elegir tu seguro.
-          <br><br>Sólo falta un paso más para terminar tu contratación</h1>
+          <h1>Ingresa el número de tu tarjeta de crédito.
+            <br><h2>Revisa bien tus datos y escríbelos en el recuadro blanco. Cuando termines, haz clic en el botón de continuar.</h2>
         </div>
-        
-        <div class="boton-derecha">
-          <a href="valida.html"><button id="botonContinuar" type="button" >CONTINUAR</button></a>
-        </div>
+        <form>
+            <input type="text" class="input" placeholder="Número de tu TDC">
+            <br>
+            <div class="boton-derecha">
+                <button id="botonValidar" type="button">CONTINUAR</button>
+            </div>
+      </form>
       </div>
-      
-      <div class="contenido-right">
-          <img class="imagen-right" src="https://raw.githubusercontent.com/roxanaggr/CDMX012-card-validation/main/img/jocelyn-morales-I2U87m3FIpQ-unsplash-edit.jpg" alt="fruta">
+                
+      <div class="contenido-tdc">
+          <div>
+            <p>Ingresa en el recuadro blanco únicamente los 16 dígitos de tu tarjeta.  Toma como referencia la imágen que se muestra abajo.
+            </p>
+            <img class="imagen-tdc" src="https://raw.githubusercontent.com/roxanaggr/CDMX012-card-validation/main/img/img-tdc.png">
+          </div>
+          
       </div>
 
     </div>
