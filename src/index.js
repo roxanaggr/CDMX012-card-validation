@@ -13,14 +13,17 @@ let btnGuardarInput=document.getElementById("botonValidar");
 let input=document.getElementById("numInput");
 
 
+
 btnGuardarInput.addEventListener("click", function (){
    let mask = (validator.maskify(input.value));
    if (validator.isValid(input.value)===true){
-      document.getElementById("msgExito").innerHTML = "Tu tarjeta es válida.";
+      document.getElementById("msg").innerHTML = "Tu tarjeta es válida.";
       input.value = mask;
-   }else
-   document.getElementById("msgError").innerHTML = "Tu tarjeta es inválida.";
-   input.value = mask;
+   }else{
+      document.getElementById("msg").innerHTML = "Tu tarjeta es inválida.";
+      input.value = mask;
+   }
+   
 
    //console.log (validator.isValid(input.value))
    //console.log (validator.maskify(input.value));

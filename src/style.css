@@ -199,27 +199,24 @@ h4, a.footer-text {
 
 }
 
-.bordeRojo {
-  width: 90%;
-  height: 30px;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  border-radius: 30px;
-  padding-left: 30px;
-  padding-top: 15px;
-  border-style:solid;
-  border-color: #eb5757;
-  border-width: 3px;
-}
 
-#msgError {
+#msg {
+  width: 95%;
   font-family: Grotesque MT Std;
   font-size: 17px;
-  font-style: normal;
   font-weight: 700;
-  color: #eb5757;
-  text-align: center;
+  margin-top: 70px;
   padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #eb5757;
+}
+
+h5 {
+  color: #219653;
 }
 
 .bordeVerde {
