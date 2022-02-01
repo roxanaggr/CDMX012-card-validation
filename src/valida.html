@@ -28,34 +28,38 @@
     <div id="main">
       <div class="contenido-left">
         <div>
-          <h1>Ingresa el número de tu tarjeta de crédito.
+          <h1>Ingresa el número de tu tarjeta de crédito.</h1>
             <br><h2>Revisa bien tus datos y escríbelos en el recuadro blanco. Cuando termines, haz clic en el botón de continuar.</h2>
         </div>
         <form>
-            <input type="text" class="input" placeholder="Número de tu TDC">
+            <input id="numInput" type="text" placeholder="Número de tu TDC">
             <br>
             <div class="boton-derecha">
-                <button id="botonValidar" type="button">CONTINUAR</button>
+                <button type="button" id="botonValidar">CONTINUAR</button>
             </div>
-      </form>
-      </div>
+            <br>
+            <h3 id="msgError"></h3>
+            <h3 id="msgExito"></h3>
+        </form>
+      </div>  
+    </div>
                 
       <div class="contenido-tdc">
           <div>
             <p>Ingresa en el recuadro blanco únicamente los 16 dígitos de tu tarjeta.  Toma como referencia la imágen que se muestra abajo.
             </p>
-            <img class="imagen-tdc" src="https://raw.githubusercontent.com/roxanaggr/CDMX012-card-validation/main/img/img-tdc.png">
+            <img class="imagen-tdc" src="/img/img-tdc.png">
           </div>
           
       </div>
 
-    </div>
-
+    <footer>
     <div id="footer">
       <div class="aviso">
         <a class="footer-text">Aviso</a>
         <a class="footer-text">Contacto</a>
       </div>
+    </div>
       <div class="copyright">
         <h4>® 2022 Eira Seguros S.A. de C.V.</h4>
       </div>
