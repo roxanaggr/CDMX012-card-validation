@@ -63,10 +63,20 @@ body {
     border-radius: 30px;
     border-width: 0;
     cursor: pointer;
-    justify-content: center;
     padding: 1rem 1.6rem;
     text-align: center;
     color: #fff;
+  }
+
+  input {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-left: 30px;
+    border-style: none;
+    font-size: 17px;
   }
 
 .disabled {
@@ -187,4 +197,60 @@ h4, a.footer-text {
   font-weight: 400;
   color: #F2F2F2;
 
+}
+
+.bordeRojo {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  border-style:solid;
+  border-color: #eb5757;
+  border-width: 3px;
+}
+
+#msgError {
+  font-family: Grotesque MT Std;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  color: #eb5757;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.bordeVerde {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  border-style:solid;
+  border-color: #219653;
+  border-width: 3px;
+}
+
+#msgExito {
+  font-family: Grotesque MT Std;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  color: #219653;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.hide
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
 }
