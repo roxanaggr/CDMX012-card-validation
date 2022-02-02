@@ -14,14 +14,8 @@ Según las [Naciones Unidas](https://www.un.org/development/desa/publications/wo
 * Mantener una comunicación clara
 * Otorgar indicaciones fáciles de comprender.
 
-## 4. Prototipo en Papel
 
-![prototipo en papel1](https://github.com/roxanaggr/CDMX012-card-validation/blob/main/img-readme/papel-1.jpg)
-![prototipo en papel2](https://github.com/roxanaggr/CDMX012-card-validation/blob/main/img-readme/papel-2.jpg)
-
-Después de recibir feedback se añadió footer y se prestó especial atención al botón continuar para que fuera bien visible tomando en cuenta las particularidades del usuario.
-
-## 5. Prototipo Final
+## 3. Prototipo Final
 
 
 ![prototipo en hd1](https://github.com/roxanaggr/CDMX012-card-validation/blob/main/img-readme/1-CC-Validation-Prototype.jpg)
